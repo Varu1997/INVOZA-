@@ -1,0 +1,271 @@
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
+/* common style */
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* Banner */
+#banner{
+    background-image: url("../images/bg.png");
+    background-size: cover;
+}
+
+.banner-container{
+    display: flex;
+    padding: 150px 0;
+    align-items: center;
+}
+
+.banner-info{
+    flex-basis: 50%;
+}
+.banner-info h3{
+    font-size: 16px;
+    color: #9ca4aa;
+    margin-bottom: 16px;
+}
+.banner-info h1{
+    font-size: 40px;
+    font-weight: 500;      
+    color: #343a40;
+    margin-bottom: 24px;
+    line-height: 1.2;
+}
+.banner-info span{
+    color: #2F55D4;
+}
+.banner-info p{
+    font-size: 15px;
+    line-height: 1.8;
+    color: #a0a9b1;
+    margin-bottom: 16px;
+}
+.button-wrapper{
+    padding-top: 24px;
+}
+.button-wrapper .primary-btn{
+    color: #ffffff;
+    background: #2F55D4;
+    font-size: 14.4px;
+    font-weight: 500;
+    border-radius: 7px;
+    padding: 14px 24px;
+    text-decoration: none;
+    box-shadow: 0 8px 14px rgba(47,85,212,.2);
+}
+.button-wrapper .secondary-btn{
+    color: #ffffff;
+    background: #34d1bf;
+    font-size: 14.4px;
+    font-weight: 500;
+    border-radius: 7px;
+    padding: 14px 24px;
+    margin-left: 5px;
+    text-decoration: none;
+    box-shadow: 0 8px 14px rgba(47,85,212,.2);
+}
+.Invoza-form{
+    flex-basis: 30%;
+    box-shadow: 0 8px 35px 0 rgba(73,80,87,.05);
+    border-radius: 4px;
+    background-color: #ffffff;
+    padding: 24px;
+    margin-left: 225px;
+}
+.Invoza-form .form-section{
+    text-align: center;
+}
+.Invoza-form .form-section p{
+    color:  #a0a9b1;
+    margin-bottom: 15px;
+}
+.Invoza-form .form-section h5{
+    font-size: 22px;
+    font-weight: 500;      
+    color: #343a40;
+    margin-bottom: 24px;
+}
+.Invoza-form label{
+    font-size: 15px;
+    color: #a0a9b1;
+    display: inline-block;
+    margin-bottom: 8px;
+} 
+.Invoza-form input[type="text"] ,input[type="email"]{
+    width: 90%;
+    height: 28px;
+    padding: 6px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    margin-bottom: 24px;
+}
+.Invoza-form input[type="password"]{
+    width: 90%;
+    height: 28px;
+    padding: 6px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}    
+.start{
+    text-align: center;
+}
+.start button{
+    width: 100%;
+    height: 28px;
+    color: #ffffff;
+    background: #2F55D4;
+    font-size: 14.4px;
+    font-weight: 600;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 0 8px 14px rgba(47,85,212,.2);
+}
+.start button i{
+    margin-left: 8px;
+}
+
+/* Services */
+#service{
+    background-color: #f8fafe;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.section-title{
+    text-align: center;
+    padding-bottom: 35px;
+}
+.section-title h4{
+    color: #2f55d4;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.section-title h2{
+    margin-bottom: 16px;
+    color: #1b1b1d;
+    line-height: 1.4;
+    font-size: 22px;
+    font-weight: 500;
+}
+.section-title p{
+    margin-bottom: 16px;
+    color: #a0a9b1;
+    line-height: 2.6;
+    font-size: 15px;
+}
+.section-content .service-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.section-content .service-info{
+    flex-basis: 27%;
+    text-align: center;
+    padding: 24px;
+    margin-top: 16px;
+    margin-bottom: 45px;
+}
+.section-content .service-info i{
+    display: inline-block;
+    color: #2F55D4;
+    background-color: #E3E9FA;
+    border-radius: 50px;
+    padding: 16px;
+    font-size: 22px;
+}
+.section-content .service-info h5{
+    color: #343a40;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+.section-content .service-info p{
+    color: #a0a9b1;
+    line-height: 1.8;
+    font-size: 15px;
+    font-weight: 400;
+}
+.section-content .button-view a{
+    color: #ffffff;
+    background: #34d1bf;
+    font-size: 14.4px;
+    font-weight: 500;
+    border-radius: 7px;
+    padding: 14px 24px;
+    margin-left: 5px;
+    text-decoration: none;
+    box-shadow: 0 8px 14px rgb(221, 250, 250);
+}
+
+/* Business */
+#business{
+    background-color: #2f55d4;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.business-info{
+    text-align: center;
+}
+.business-info h4{
+    color: #ffffff;
+    font-size: 24px;
+    font-size: 500;
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+.business-info p{
+    color: hsla(0,0%,100%,.5);
+    line-height: 1.8;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.business-content .business-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}    
+.business-content .business-statics{
+    text-align: center;
+    margin-top: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.business-content .business-statics i{
+     display: inline;
+     color: #34d1bf;
+     font-size: 35px;
+    
+}
+.business-content .business-statics h5{
+    color: #ffffff;
+    padding-top: 16px;
+    font-size: 32px;
+    font-weight: 500;
+}
+.business-content .business-statics p{
+    color: hsla(0,0%,100%,.5);
+    line-height: 1.2;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 16px;
+    margin-bottom: 16px;
+}
+
+
+    
+
+
+
+
+
+
+
